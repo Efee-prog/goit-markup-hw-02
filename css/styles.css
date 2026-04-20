@@ -8,24 +8,50 @@ body {
   color: #434455;
   background-color: #fcfcfc;
 }
-
-/* features section */
-.main_title {
+.header1 {
   font-weight: bold;
   font-size: 56px;
   letter-spacing: 2%;
-  line-height: 1.07;
+  line-height: 3.75;
 }
-
-.section-title {
+.header2 {
   font-weight: bold;
   font-size: 36px;
   letter-spacing: 2%;
 }
-
-.subtitle {
-  font-weight: 500;
-  /*Medium değeri neyse o yazılacak*/
+.header3 {
+  font-weight: 600;
   font-size: 20px;
   letter-spacing: 2%;
+}
+.body {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 2%;
+}
+.small-text {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 0.875;
+  letter-spacing: 4%;
+}
+.body-medium {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 2%;
+}
+.button-text {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 4%;
+}
+.link {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1;
+  letter-spacing: 4%;
+  text-decoration: underline;
 }
