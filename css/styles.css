@@ -1,0 +1,31 @@
+body {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 2%;
+
+  color: #434455;
+  background-color: #fcfcfc;
+}
+
+/* features section */
+.main_title {
+  font-weight: bold;
+  font-size: 56px;
+  letter-spacing: 2%;
+  line-height: 1.07;
+}
+
+.section-title {
+  font-weight: bold;
+  font-size: 36px;
+  letter-spacing: 2%;
+}
+
+.subtitle {
+  font-weight: 500;
+  /*Medium değeri neyse o yazılacak*/
+  font-size: 20px;
+  letter-spacing: 2%;
+}
