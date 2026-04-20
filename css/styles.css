@@ -8,44 +8,50 @@ body {
   color: #434455;
   background-color: #fcfcfc;
 }
-.header1 {
+.nav-link {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 2%;
+}
+.contact-link,
+.feature-text,
+.team-role,
+.portfolio-text,
+.footer-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 2%;
+}
+.hero-title {
   font-weight: bold;
   font-size: 56px;
   letter-spacing: 2%;
   line-height: 3.75;
 }
-.header2 {
+.button-text {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 4%;
+}
+.section-title {
   font-weight: bold;
   font-size: 36px;
   letter-spacing: 2%;
 }
-.header3 {
+.feature-title,
+.team-name,
+.portfolio-title {
   font-weight: 600;
   font-size: 20px;
-  letter-spacing: 2%;
-}
-.body {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
   letter-spacing: 2%;
 }
 .small-text {
   font-weight: 400;
   font-size: 12px;
   line-height: 0.875;
-  letter-spacing: 4%;
-}
-.body-medium {
-  font-weight: 600;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 2%;
-}
-.button-text {
-  font-weight: 600;
-  font-size: 16px;
-  line-height: 1.5;
   letter-spacing: 4%;
 }
 .link {
