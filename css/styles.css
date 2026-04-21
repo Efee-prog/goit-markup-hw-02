@@ -1,3 +1,26 @@
+/* ROOT */
+:root {
+  --color-primary: #4d5ae5;
+  --color-primary-pressed: #404bbf;
+
+  --color-dark: #2e2f42;
+  --color-success: #31d0aa;
+
+  --color-text: #434455;
+  --color-subtle-text: #8e8f99;
+
+  --color-accent: #e7e9fc;
+  --color-light: #f4f4fd;
+
+  --color-overlay: rgba(46, 47, 66, 0.4);
+
+  --color-hero-bg: rgba(46, 48, 66, 0.7);
+
+  --color-white: #ffffff;
+  --color-modal-bg: #fcfcfc;
+}
+
+/* BASE */
 body {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
@@ -5,42 +28,60 @@ body {
   line-height: 1.5;
   letter-spacing: 2%;
 
-  color: #434455;
-  background-color: #fcfcfc;
+  color: var(--color-text);
+  background-color: var(--color-modal-bg);
 }
+
+/* TYPOGRAPHY */
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+
+  line-height: 1.17;
+  letter-spacing: 3%;
+  vertical-align: middle;
+
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
 .nav-link {
-  font-weight: 600;
+  font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 2%;
+  color: var(--color-dark);
 }
+
+.nav-link:hover,
+.contact-link:hover {
+  color: var(--color-primary-pressed);
+}
+
 .contact-link,
 .feature-text,
 .team-role,
-.portfolio-text,
-.footer-text {
-  font-weight: 400;
+.portfolio-text {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 2%;
+  color: var(--color-text);
 }
+
 .hero-title {
   font-weight: bold;
   font-size: 56px;
   letter-spacing: 2%;
   line-height: 3.75;
 }
-.button-text {
-  font-weight: 600;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 4%;
-}
+
 .section-title {
   font-weight: bold;
   font-size: 36px;
   letter-spacing: 2%;
 }
+
 .feature-title,
 .team-name,
 .portfolio-title {
@@ -48,16 +89,48 @@ body {
   font-size: 20px;
   letter-spacing: 2%;
 }
+
+.footer-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 2%;
+  color: var(--color-accent);
+}
+
 .small-text {
-  font-weight: 400;
   font-size: 12px;
   line-height: 0.875;
   letter-spacing: 4%;
 }
+
 .link {
-  font-weight: 400;
   font-size: 12px;
   line-height: 1;
   letter-spacing: 4%;
   text-decoration: underline;
+}
+
+/* COMPONENTS */
+.button-text {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 4%;
+  cursor: pointer;
+
+  color: var(--color-white);
+  background-color: var(--color-primary);
+}
+.button-text:hover {
+  background-color: var(--color-primary-pressed);
+}
+
+/* LAYOUT */
+.hero-section {
+  background-color: var(--color-dark);
+  color: var(--color-white);
+}
+
+#footer {
+  background-color: var(--color-dark);
 }
