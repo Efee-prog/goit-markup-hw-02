@@ -133,6 +133,10 @@ body {
   color: var(--color-white);
 }
 
+.team-section{
+  background-color: var(--color-light);
+}
+
 #footer {
   background-color: var(--color-dark);
 }
