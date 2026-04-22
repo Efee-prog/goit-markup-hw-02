@@ -23,10 +23,9 @@
 /* BASE */
 body {
   font-family: "Roboto", sans-serif;
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 2%;
+  letter-spacing: 0.02em;
 
   color: var(--color-text);
   background-color: var(--color-modal-bg);
@@ -37,21 +36,34 @@ body {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
-
   line-height: 1.17;
-  letter-spacing: 3%;
-  vertical-align: middle;
-
+  letter-spacing: 0.03em;
   text-transform: uppercase;
   text-decoration: none;
 }
 
+.logo-web {
+  color: var(--color-primary);
+}
+
+.logo-studio {
+  color: var(--color-dark);
+}
+
+#footer .logo-studio{
+  color: var(--color-light);
+}
 .nav-link {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 2%;
+  letter-spacing: 0.02em;
   color: var(--color-dark);
+}
+
+.nav-link,
+.contact-link{
+  text-decoration: none;
 }
 
 .nav-link:hover,
@@ -65,50 +77,52 @@ body {
 .portfolio-text {
   font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 2%;
+  letter-spacing: 0.02em;
   color: var(--color-text);
 }
 
 .hero-title {
-  font-weight: bold;
+  font-weight: 700;
   font-size: 56px;
-  letter-spacing: 2%;
-  line-height: 3.75;
+  letter-spacing: 0.02em;
+  line-height: 1.07;
 }
 
 .section-title {
-  font-weight: bold;
+  font-weight: 700;
   font-size: 36px;
-  letter-spacing: 2%;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
   color: var(--color-dark);
 }
 
 .feature-title,
 .team-name,
 .portfolio-title {
-  font-weight: 600;
+  font-weight: 500;
   font-size: 20px;
-  letter-spacing: 2%;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
   color: var(--color-dark);
 }
 
 .footer-text {
   font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 2%;
+  letter-spacing: 0.02em;
   color: var(--color-accent);
 }
 
 .small-text {
   font-size: 12px;
-  line-height: 0.875;
-  letter-spacing: 4%;
+  line-height: 0.88;
+  letter-spacing: 0.04em;
 }
 
 .link {
   font-size: 12px;
   line-height: 1;
-  letter-spacing: 4%;
+  letter-spacing: 0.04em;
   text-decoration: underline;
 }
 
@@ -117,7 +131,7 @@ body {
   font-weight: 600;
   font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 4%;
+  letter-spacing: 0.04em;
   cursor: pointer;
 
   color: var(--color-white);
